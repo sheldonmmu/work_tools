@@ -1,0 +1,13 @@
+/* styles.css */
+div.stButton > button:first-child {
+    background-color: #85C1E9;
+    color: white;
+}
+
+.main {
+    background-color: #85C1E9;
+}
+
+.st-emotion-cache-10trblm {
+    color: #566573;
+}
