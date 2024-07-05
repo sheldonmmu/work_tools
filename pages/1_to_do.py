@@ -30,7 +30,6 @@ st.title("Future ideas:")
 my_list = ["Resource usage visualising?"]
 st.markdown("* " + "\n* ".join(map(str, my_list)))
 
-
 st.title("Metrics Example")
 st.subheader("Testing it out")
 
@@ -39,3 +38,8 @@ col1.metric(label="Temperature", value="70 °F", delta="1.2 °F")
 col2.metric(label="Wind", value="9 mph", delta="-8%") 
 col3.metric(label="Humidity", value="86%", delta="4%")
 col4.metric(label="Coffee :coffee:", delta="4%", value="86%")
+
+for item in my_list:
+    st.markdown(f"""
+    <p>{item}</p>
+    """, unsafe_allow_html=True)

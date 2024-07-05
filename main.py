@@ -1,8 +1,4 @@
-### tut (inc free deployment) https://www.youtube.com/watch?v=D0D4Pa22iG0
-# streamlit run main.py
-
 import streamlit as st
-#from PIL import Image
 
 # Read the CSS file
 with open("styles.css") as f:
