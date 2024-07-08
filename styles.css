@@ -17,8 +17,8 @@
 
 /* Style all text areas */
 .stTextArea textarea {
-    color: #ffffff;  /* Light for text */
-    background-color: #635C53;  /*  grey background */
+    color: #282521;  /* Light for text */
+    background-color: #A2EBC0;  /*  grey background */
 }
 
 /* Style titles and headers */
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Style buttons */
 .stButton > button {
     color: #f1f1f1;  /* Lightest grey for text */
-    background-color: #635C53;  /* Dark grey background */
+    background-color: #A2EBC0;  /* Dark grey background */
     border-radius: 4px;
     border: none;
     padding: 0.5rem 1rem;
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Hover effect for buttons */
 .stButton > button:hover {
-    background-color: #282521;  /* Darker grey on hover */
+    background-color: #635C53;  /* Darker grey on hover */
     color: #ffffff !important;;  /* Light text color on hover */
     cursor: pointer;  /* Change cursor to pointer on hover */
   }
