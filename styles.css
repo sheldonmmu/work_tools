@@ -1,35 +1,35 @@
 /* Set the page background to light grey */
 .main {
     background-color: #A2EBC0;  /* Lightest grey */
-    color: rgb(70, 75, 70);  /* Lightest grey for text */
+    color: #635C53;  /* Lightest grey for text */
 }
 
 /* Style the sidebar (background bar behind page links) */
 .sidebar .sidebar-content {
-    background-color: #B3E6D9;  /* Lighter grey */
+    background-color: #ACBDE8;  /* Lighter grey */
 }
 
 /* Style all text inputs */
 .stTextInput > div > div > input {
     color: #ffffff;  /* Light for text */
-    background-color: rgb(70, 75, 70);  /*  grey background */
+    background-color: #635C53;  /*  grey background */
 }
 
 /* Style all text areas */
 .stTextArea textarea {
     color: #ffffff;  /* Light for text */
-    background-color: rgb(70, 75, 70);  /*  grey background */
+    background-color: #635C53;  /*  grey background */
 }
 
 /* Style titles and headers */
 h1, h2, h3, h4, h5, h6 {
-    color: #ACBDE8;  /* Lightest grey for text */
+    color: #5E8E69;  /* Lightest grey for text */
 }
 
 /* Style buttons */
 .stButton > button {
     color: #f1f1f1;  /* Lightest grey for text */
-    background-color: #767373;  /* Dark grey background */
+    background-color: #635C53;  /* Dark grey background */
     border-radius: 4px;
     border: none;
     padding: 0.5rem 1rem;
@@ -37,16 +37,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Hover effect for buttons */
 .stButton > button:hover {
-    background-color: rgb(40, 45, 40);  /* Darker grey on hover */
+    background-color: #282521;  /* Darker grey on hover */
     color: #ffffff !important;;  /* Light text color on hover */
     cursor: pointer;  /* Change cursor to pointer on hover */
   }
 
 p {
-   color: rgb(0, 0, 0) !important;
+   color: #000000 !important;
   }
 
 /* Style the list items */
 .stMarkdown ul li {
-    color: rgb(255, 0, 0) !important;
+    color: #635C53 !important;
 }
