@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Style buttons */
 .stButton > button {
     color: #f1f1f1;  /* Lightest grey for text */
-    background-color: #A2EBC0;  /* Dark grey background */
+    background-color: #5E8E69;  /* Dark grey background */
     border-radius: 4px;
     border: none;
     padding: 0.5rem 1rem;
