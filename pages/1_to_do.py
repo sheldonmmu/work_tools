@@ -21,17 +21,18 @@ with open("styles.css") as f:
 # st.write(my_list)
 st.title("To do list:")
 
-my_list = ["Random Worldcat resources button (need requirements doc and Search API to replace num gen approach)"]
+my_list = ["Random Worldcat resources button (needs Search API to replace num gen approach)"]
 st.markdown("* " + "\n* ".join(map(str, my_list)))
 
 st.title("Stewing:")
 
-my_list = ["https://vimeo.com/nwfilmarchive, https://mmuspecialcollections.calmhosting.net/default.aspx"]
+my_list = ["https://vimeo.com/nwfilmarchive",
+           "https://mmuspecialcollections.calmhosting.net/default.aspx"]
 st.markdown("* " + "\n* ".join(map(str, my_list)))
 
 st.title("Future ideas:")
 
-my_list = ["Resource usage visualising?"]
+my_list = ["None here right now :)"]
 st.markdown("* " + "\n* ".join(map(str, my_list)))
 
 st.title("Metrics Example")
