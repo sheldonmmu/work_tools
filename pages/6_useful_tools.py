@@ -14,7 +14,7 @@ st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 st.title("Useful tools")
 
 # Input area for user to paste a paragraph
-text = st.text("A list of tools that maybe useful:")
+# text = st.text("A list of tools that maybe useful:")
 
 # List of tools as (name, url) tuples
 tools = [
