@@ -1,3 +1,5 @@
+# streamlit run main.py
+
 import streamlit as st
 import segno
 import io

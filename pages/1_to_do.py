@@ -11,6 +11,10 @@ with open("styles.css") as f:
 # Inject CSS with st.markdown
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
+
+with open("styles.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
 ### CONTENT
 
 # my_list = [1, 2, 3, 4, 5]
