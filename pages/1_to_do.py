@@ -4,16 +4,7 @@
 import streamlit as st
 
 ### STYLE
-# Read the CSS file
-with open("styles.css") as f:
-    css = f.read()
-
-# Inject CSS with st.markdown
-st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
-
-
-with open("styles.css") as f:
-    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+# set in config.toml
 
 ### CONTENT
 

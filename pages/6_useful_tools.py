@@ -1,10 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-# STYLE
-with open("styles.css") as f:
-    css = f.read()
-st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
+### STYLE
+# set in config.toml
 
 st.title("Useful tools")
 

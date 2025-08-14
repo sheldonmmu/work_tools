@@ -4,10 +4,9 @@ import streamlit as st
 import segno
 import io
 
+
 ### STYLE
-# Read the CSS file
-with open("styles.css") as f:
-    css = f.read()
+# set in config.toml
 
 # Add custom CSS for spacing
 custom_css = """
