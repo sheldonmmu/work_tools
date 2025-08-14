@@ -1,0 +1,7 @@
+[theme]
+# Core dark mode colors
+primaryColor = "#4CAF50"              # Accent color (buttons, sliders, links) - green for visibility
+backgroundColor = "#000000"           # Main page background (black)
+secondaryBackgroundColor = "#1A1A1A"  # Sidebar & widget background (dark grey)
+textColor = "#FFFFFF"                 # All main text in white
+font = "sans serif"                   # Clean, modern font
